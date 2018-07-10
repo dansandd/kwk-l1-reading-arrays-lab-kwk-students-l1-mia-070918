@@ -24,12 +24,12 @@ end
 def first_student_by_method
 puts STUDENT_NAMES.first
 end
-end
 
 def last_student_by_method
-  # Write a solution that returns the first student using the built in .last method
+puts STUDENT_NAMES.last
 end
 
 def first_second_and_third_students
-  # Write a solution that returns the first, second and third students
+puts STUDENT_NAMES[1,3]
 end
+first_second_and_third_students
